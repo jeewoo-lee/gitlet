@@ -1,0 +1,23 @@
+> init
+<<<
++ A.txt a.txt
++ B.txt b.txt
++ C.txt c.txt
+> add C.txt
+<<<
+> commit "fdsdfsfdsa"
+<<<
+D HEADER "commit [a-f0-9]+"
+D DATE "Date: \w\w\w \w\w\w \d+ \d\d:\d\d:\d\d \d\d\d\d [-+]\d\d\d\d"
+> log
+===
+${HEADER}
+${DATE}
+fdsdfsfdsa
+
+===
+${HEADER}
+${DATE}
+initial commit
+
+<<<*

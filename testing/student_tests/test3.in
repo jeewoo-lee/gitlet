@@ -1,0 +1,8 @@
+> init
+<<<
++ A.txt a.txt
+> add A.txt
+<<<
+> init
+A Gitlet version-control system already exists in the current directory.
+<<<
